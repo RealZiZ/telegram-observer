@@ -1,0 +1,27 @@
+# Sensitive — never commit these
+.env
+*.session
+*.session-journal
+
+# Data — private message content
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
